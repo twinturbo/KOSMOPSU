@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -5846,7 +5846,7 @@
   (gr_text -12V (at 171.26 72.45) (layer F.Cu)
     (effects (font (size 1.5 2) (thickness 0.3)))
   )
-  (gr_text "Claytune Power Supply \nBy Twinturbo\nV.01" (at 159.42 56.23) (layer F.SilkS) (tstamp 5F39E274)
+  (gr_text "Claytune Power Supply \nBy Twinturbo\nV1.0" (at 159.42 56.23) (layer F.SilkS) (tstamp 5F39E274)
     (effects (font (size 2 2) (thickness 0.3)))
   )
   (gr_arc (start 66.899999 59.840001) (end 69.009998 59.830002) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5F39BA5A))
