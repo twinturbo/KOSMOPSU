@@ -37,7 +37,7 @@ U 1 1 5F393BB8
 P 4550 2500
 F 0 "F3" V 4353 2500 50  0000 C CNN
 F 1 "Fuse" V 4444 2500 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 4480 2500 50  0001 C CNN
+F 2 "ROBSLIBRARY:googiefuse" V 4480 2500 50  0001 C CNN
 F 3 "~" H 4550 2500 50  0001 C CNN
 	1    4550 2500
 	0    1    1    0   
@@ -48,7 +48,7 @@ U 1 1 5F3941F6
 P 4450 3800
 F 0 "F2" V 4253 3800 50  0000 C CNN
 F 1 "Fuse" V 4344 3800 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 4380 3800 50  0001 C CNN
+F 2 "ROBSLIBRARY:googiefuse" V 4380 3800 50  0001 C CNN
 F 3 "~" H 4450 3800 50  0001 C CNN
 	1    4450 3800
 	0    1    1    0   
@@ -59,7 +59,7 @@ U 1 1 5F394CB5
 P 2100 3400
 F 0 "F1" V 1903 3400 50  0000 C CNN
 F 1 "Fuse" V 1994 3400 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2030 3400 50  0001 C CNN
+F 2 "ROBSLIBRARY:googiefuse" V 2030 3400 50  0001 C CNN
 F 3 "~" H 2100 3400 50  0001 C CNN
 	1    2100 3400
 	0    1    1    0   

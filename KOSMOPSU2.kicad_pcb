@@ -4764,7 +4764,7 @@
     (fp_text reference T1 (at 8.128 7.366 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Transformer_1P_2S (at 33.02 36.068 90) (layer F.SilkS)
+    (fp_text value "Myrra 44440 Transformer 240V " (at 31.864 26.27 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.17 -0.14) (end -0.17 53.68) (layer F.SilkS) (width 0.1))
