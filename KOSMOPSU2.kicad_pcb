@@ -151,10 +151,10 @@
 
   (module AA-ROB:GX-F1 (layer F.Cu) (tedit 0) (tstamp 5FE75290)
     (at 80.49 79.22)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference G2 (at -0.62 -32.59) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 4.55 -32.54) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -0.626714 -12.016411) (xy -0.613292 -11.967234) (xy -0.610211 -11.911306) (xy -0.587917 -11.778919)
@@ -1068,10 +1068,10 @@
 
   (module AA-ROB:GX-TOBINLOGO (layer F.Cu) (tedit 0) (tstamp 5FE73171)
     (at 161.29 110.16)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference G1 (at 21.8 -0.21) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 23.34 2.37) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 5.131633 7.361677) (xy 5.135936 7.373373) (xy 5.115342 7.39593) (xy 5.097797 7.398798)
@@ -6859,16 +6859,6 @@
   (gr_line (start 178.07 49.68) (end 178.07 123.58) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 24.37 49.68) (end 178.07 49.68) (layer Edge.Cuts) (width 0.05))
 
-  (zone (net 10) (net_name GND) (layer F.Cu) (tstamp 5F39FDB5) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 177.21 123.27) (xy 86.41 123.27) (xy 86.41 50.74) (xy 177.21 50.74)
-      )
-    )
-  )
   (zone (net 10) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)

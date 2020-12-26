@@ -1,9 +1,9 @@
-(pcb C:\Users\Robin\Documents\KICAD\KOSMOPSU2\KOSMOPSU2\KOSMOPSU2.dsn
+(pcb /home/robin/Documents/GITS/PCB/KOSMOPSU/KOSMOPSU2.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(5.1.5)-3")
+    (host_version "5.1.5-52549c5~86~ubuntu18.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -50,19 +50,28 @@
     )
   )
   (placement
-    (component ROBSLIBRARY:googiefuse
-      (place F1 36930 -57660 front 270 (PN Fuse))
-      (place F2 133500 -60670 front 180 (PN Fuse))
-      (place F3 133500 -114460 front 180 (PN Fuse))
+    (component "AA-ROB:GX-F1"
+      (place G2 80490 -79220 front 0 (PN LOGO))
+      (place G1 161290 -110160 front 0 (PN LOGO))
     )
     (component Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
-      (place C6 171230 -63860 front 0 (PN "1uf 50V"))
+      (place C6 172466 -68072 front 90 (PN "1uf 50V"))
       (place C5 147710 -86480 front 0 (PN ".1uf 50V"))
       (place C4 138650 -86780 front 0 (PN "2uf 50V"))
       (place C3 171330 -95360 front 0 (PN ".33uf 50V"))
     )
-    (component ROBSLIBRARY:TOBINLOGO
-      (place G*** 164480 -110600 front 0 (PN LOGO))
+    (component MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad
+      (place H5 174570 -120080 front 0 (PN MountingHole_Pad))
+      (place H4 174580 -53190 front 0 (PN MountingHole_Pad))
+      (place H3 27870 -120080 front 0 (PN MountingHole_Pad))
+      (place H2 27880 -53180 front 0 (PN MountingHole_Pad))
+    )
+    (component "AA-ROB:PCB-20MM-FUSE-HOLDER"
+      (place F3 133500 -114460 front 180 (PN "1.5A 240V"))
+      (place F2 133500 -60670 front 180 (PN "1.5A 240V"))
+    )
+    (component ROBSLIBRARY:googiefuse
+      (place F1 36930 -57660 front 270 (PN "0.2A 240V"))
     )
     (component "Diode_THT:D_A-405_P10.16mm_Horizontal"
       (place D5 166980 -63950 front 180 (PN 1N4001))
@@ -73,7 +82,7 @@
       (place U1 142000 -112100 front 270 (PN L7812))
     )
     (component ROBSLIBRARY:Transformer_Myrra_44440
-      (place T1 48660 -119240 front 90 (PN Transformer_1P_2S))
+      (place T1 48660 -119240 front 90 (PN "Myrra 44440 Transformer 240V "))
     )
     (component Capacitor_THT:CP_Radial_D16.0mm_P7.50mm
       (place C1 129000 -101280 front 90 (PN "1000uf 50V"))
@@ -90,7 +99,7 @@
     (component LED_THT:LED_D5.0mm::1
       (place D3 147000 -71510 front 0 (PN LED))
     )
-    (component MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad
+    (component MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad::1
       (place H1 30410 -93060 front 0 (PN MountingHole_Pad))
     )
     (component "Connector_Molex:Molex_KK-396_A-41791-0003_1x03_P3.96mm_Vertical"
@@ -103,30 +112,14 @@
       (place J3 171920 -77030 front 270 (PN Conn_01x03_Male))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (place R1 151000 -93730 front 180 (PN 2K))
+      (place R1 150450 -97370 front 180 (PN 2K))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal::1
-      (place R2 141000 -79840 front 0 (PN 2K))
+      (place R2 140160 -77950 front 0 (PN 2K))
     )
   )
   (library
-    (image ROBSLIBRARY:googiefuse
-      (outline (path signal 120  -110 -4910  -110 -1750))
-      (outline (path signal 50  24750 5050  24750 -5050))
-      (outline (path signal 120  -110 -4910  22610 -4910))
-      (outline (path signal 50  -2750 5050  24750 5050))
-      (outline (path signal 50  24750 -5050  -2750 -5050))
-      (outline (path signal 120  -110 4910  22610 4910))
-      (outline (path signal 120  -110 1750  -110 4910))
-      (outline (path signal 120  22610 1750  22610 4910))
-      (outline (path signal 120  22610 -4910  22610 -1750))
-      (outline (path signal 50  -2750 -5050  -2750 5050))
-      (outline (path signal 100  22500 4800  0 4800))
-      (outline (path signal 100  22500 -4800  22500 4800))
-      (outline (path signal 100  0 -4800  22500 -4800))
-      (outline (path signal 100  0 4800  0 -4800))
-      (pin Round[A]Pad_4000_um 2 23000 0)
-      (pin Round[A]Pad_4000_um 1 -500 0)
+    (image "AA-ROB:GX-F1"
     )
     (image Capacitor_THT:CP_Radial_D6.3mm_P2.50mm
       (outline (path signal 120  -1935.24 2154  -1935.24 1524))
@@ -294,7 +287,57 @@
       (pin Round[A]Pad_1600_um 2 2500 0)
       (pin Rect[A]Pad_1600x1600_um 1 0 0)
     )
-    (image ROBSLIBRARY:TOBINLOGO
+    (image MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad
+      (outline (path signal 50  2600 0  2518.32 -646.594  2278.4 -1252.56  1895.32 -1779.82
+            1393.15 -2195.25  803.444 -2472.75  163.255 -2594.87  -487.191 -2553.95
+            -1107.03 -2352.55  -1657.3 -2003.33  -2103.44 -1528.24  -2417.42 -957.124
+            -2579.5 -325.866  -2579.5 325.866  -2417.42 957.124  -2103.44 1528.24
+            -1657.3 2003.33  -1107.03 2352.55  -487.191 2553.95  163.255 2594.87
+            803.444 2472.75  1393.15 2195.25  1895.32 1779.82  2278.4 1252.56
+            2518.32 646.594  2600 0))
+      (outline (path signal 150  2350 0  2269.93 -608.225  2035.16 -1175  1661.7 -1661.7
+            1175 -2035.16  608.225 -2269.93  0 -2350  -608.225 -2269.93
+            -1175 -2035.16  -1661.7 -1661.7  -2035.16 -1175  -2269.93 -608.225
+            -2350 0  -2269.93 608.225  -2035.16 1175  -1661.7 1661.7  -1175 2035.16
+            -608.225 2269.93  0 2350  608.225 2269.93  1175 2035.16  1661.7 1661.7
+            2035.16 1175  2269.93 608.225  2350 0))
+      (pin Round[A]Pad_4700_um 1 0 0)
+    )
+    (image "AA-ROB:PCB-20MM-FUSE-HOLDER"
+      (outline (path signal 100  0 4800  0 -4800))
+      (outline (path signal 100  0 -4800  22500 -4800))
+      (outline (path signal 100  22500 -4800  22500 4800))
+      (outline (path signal 100  22500 4800  0 4800))
+      (outline (path signal 50  -2750 -5050  -2750 5050))
+      (outline (path signal 120  22610 -4910  22610 -1750))
+      (outline (path signal 120  22610 1750  22610 4910))
+      (outline (path signal 120  -110 1750  -110 4910))
+      (outline (path signal 120  -110 4910  22610 4910))
+      (outline (path signal 50  24750 -5050  -2750 -5050))
+      (outline (path signal 50  -2750 5050  24750 5050))
+      (outline (path signal 120  -110 -4910  22610 -4910))
+      (outline (path signal 50  24750 5050  24750 -5050))
+      (outline (path signal 120  -110 -4910  -110 -1750))
+      (pin Round[A]Pad_4000_um 1 -500 0)
+      (pin Round[A]Pad_4000_um 2 23000 0)
+    )
+    (image ROBSLIBRARY:googiefuse
+      (outline (path signal 120  -110 -4910  -110 -1750))
+      (outline (path signal 50  24750 5050  24750 -5050))
+      (outline (path signal 120  -110 -4910  22610 -4910))
+      (outline (path signal 50  -2750 5050  24750 5050))
+      (outline (path signal 50  24750 -5050  -2750 -5050))
+      (outline (path signal 120  -110 4910  22610 4910))
+      (outline (path signal 120  -110 1750  -110 4910))
+      (outline (path signal 120  22610 1750  22610 4910))
+      (outline (path signal 120  22610 -4910  22610 -1750))
+      (outline (path signal 50  -2750 -5050  -2750 5050))
+      (outline (path signal 100  22500 4800  0 4800))
+      (outline (path signal 100  22500 -4800  22500 4800))
+      (outline (path signal 100  0 -4800  22500 -4800))
+      (outline (path signal 100  0 4800  0 -4800))
+      (pin Round[A]Pad_4000_um 2 23000 0)
+      (pin Round[A]Pad_4000_um 1 -500 0)
     )
     (image "Diode_THT:D_A-405_P10.16mm_Horizontal"
       (outline (path signal 50  11310 1600  -1150 1600))
@@ -1073,7 +1116,7 @@
       (pin Rect[A]Pad_1800x1800_um 1 0 0)
       (pin Round[A]Pad_1800_um 2 2540 0)
     )
-    (image MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad
+    (image MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad::1
       (outline (path signal 150  2350 0  2269.93 -608.225  2035.16 -1175  1661.7 -1661.7
             1175 -2035.16  608.225 -2269.93  0 -2350  -608.225 -2269.93
             -1175 -2035.16  -1661.7 -1661.7  -2035.16 -1175  -2269.93 -608.225
@@ -1446,7 +1489,7 @@
       (pins T1-1 J1-1)
     )
     (net Earth
-      (pins H1-1 J1-2)
+      (pins H5-1 H4-1 H3-1 H2-1 H1-1 J1-2)
     )
     (net LINE
       (pins F1-2 J1-3)
@@ -1484,48 +1527,5 @@
     )
   )
   (wiring
-    (wire (path F.Cu 500  142000 -112100  143500 -112100  156530 -99070  156530 -95440)(net "Net-(C1-Pad1)")(type protect))
-    (wire (path F.Cu 500  135860 -112100  142000 -112100)(net "Net-(C1-Pad1)")(type protect))
-    (wire (path F.Cu 500  129000 -101280  129000 -105240  135860 -112100)(net "Net-(C1-Pad1)")(type protect))
-    (wire (path F.Cu 500  171330 -95360  170030 -95360)(net "Net-(C1-Pad1)")(type protect))
-    (wire (path F.Cu 500  156530 -95440  157930 -95440  159314 -96824.2  168566 -96824.2
-            170030 -95360)(net "Net-(C1-Pad1)")(type protect))
-    (wire (path B.Cu 500  129000 -72570  141150 -84720  141150 -86780)(net "Net-(C2-Pad2)")(type protect))
-    (wire (path B.Cu 500  129000 -72570  129000 -65170)(net "Net-(C2-Pad2)")(type protect))
-    (wire (path F.Cu 500  142000 -60570  140500 -60570)(net "Net-(C2-Pad2)")(type protect))
-    (wire (path F.Cu 500  133500 -60670  140400 -60670  140500 -60570)(net "Net-(C2-Pad2)")(type protect))
-    (wire (path F.Cu 500  156820 -63950  155420 -63950)(net "Net-(C2-Pad2)")(type protect))
-    (wire (path F.Cu 500  142000 -60570  152040 -60570  155420 -63950)(net "Net-(C2-Pad2)")(type protect))
-    (wire (path B.Cu 500  110920 -81355  111000 -81275)(net "Net-(D1-Pad4)")(type protect))
-    (wire (path B.Cu 500  110920 -85220  98140 -72440  91660 -72440)(net "Net-(D1-Pad3)")(type protect))
-    (wire (path B.Cu 500  110920 -89085  97565 -102440  91660 -102440)(net "Net-(D1-Pad2)")(type protect))
-    (wire (path B.Cu 500  110920 -92950  110920 -94245  111000 -94325)(net "Net-(D1-Pad1)")(type protect))
-    (wire (path B.Cu 500  140840 -93730  140840 -95030  149540 -103730  149540 -103920)(net "Net-(D2-Pad2)")(type protect))
-    (wire (path B.Cu 500  151160 -79840  151160 -78540  149540 -76920  149540 -71510)(net "Net-(D3-Pad2)")(type protect))
-    (wire (path B.Cu 3000  59160 -72440  51710 -72440)(net "Net-(F1-Pad1)")(type protect))
-    (wire (path F.Cu 500  161590 -74200  159050 -74200)(net -12V)(type protect))
-    (wire (path B.Cu 500  166980 -72090  171920 -77030)(net -12V)(type protect))
-    (wire (path B.Cu 500  166980 -65125.2  166980 -72090  165064 -72090  162954 -74200)(net -12V)(type protect))
-    (wire (path B.Cu 500  161590 -74200  162954 -74200)(net -12V)(type protect))
-    (wire (path B.Cu 500  166980 -63950  166980 -65125.2)(net -12V)(type protect))
-    (wire (path B.Cu 500  173730 -63860  172465 -65125.2  166980 -65125.2)(net -12V)(type protect))
-    (wire (path B.Cu 500  147000 -70159.6  147000 -69562.5  142000 -64562.5)(net -12V)(type protect))
-    (wire (path B.Cu 500  147000 -70309.9  147000 -70159.6  153646 -70159.6  157686 -74200)(net -12V)(type protect))
-    (wire (path B.Cu 500  142000 -63110  142000 -64562.5)(net -12V)(type protect))
-    (wire (path B.Cu 500  159050 -74200  157686 -74200)(net -12V)(type protect))
-    (wire (path B.Cu 500  147000 -71510  147000 -70309.9)(net -12V)(type protect))
-    (wire (path B.Cu 3000  59160 -102440  59160 -105440)(net NEUT)(type protect))
-    (wire (path B.Cu 3000  36930 -116650  47950 -116650  59160 -105440)(net NEUT)(type protect))
-    (wire (path F.Cu 500  161590 -84360  160226 -84360)(net +12V)(type protect))
-    (wire (path F.Cu 500  159050 -85041.8  159545 -85041.8  160226 -84360)(net +12V)(type protect))
-    (wire (path F.Cu 500  159050 -85041.8  159050 -85723.6)(net +12V)(type protect))
-    (wire (path F.Cu 500  159050 -84360  159050 -85041.8)(net +12V)(type protect))
-    (wire (path F.Cu 500  151000 -93730  159006 -85723.6  159050 -85723.6)(net +12V)(type protect))
-    (wire (path B.Cu 500  165633 -89766.8  166690 -90823.6  166690 -95440)(net +12V)(type protect))
-    (wire (path B.Cu 500  161590 -85723.6  165633 -89766.8  171920 -83480)(net +12V)(type protect))
-    (wire (path B.Cu 500  171920 -82110  171920 -83480)(net +12V)(type protect))
-    (wire (path B.Cu 500  142000 -117180  151000 -108180  151000 -93730)(net +12V)(type protect))
-    (wire (path B.Cu 500  161590 -84360  161590 -85723.6)(net +12V)(type protect))
-    (wire (path B.Cu 500  151000 -93730  147710 -90440  147710 -86480)(net +12V)(type protect))
   )
 )
