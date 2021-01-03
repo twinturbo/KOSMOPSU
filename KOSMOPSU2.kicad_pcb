@@ -5791,7 +5791,7 @@
     (fp_text reference T1 (at -1.41 0.58 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "Myrra 44441 Transformer 240V " (at 32.372 2.14 90) (layer F.SilkS)
+    (fp_text value "Myrra 44440 Transformer 240V " (at 32.372 2.14 90) (layer F.SilkS)
       (effects (font (size 3 2) (thickness 0.15)))
     )
     (fp_line (start 63.754 -0.14) (end 63.754 53.68) (layer F.SilkS) (width 0.1))
@@ -6852,7 +6852,7 @@
     )
   )
 
-  (gr_text "Myrra 44453 Transformer 117V " (at 54.864 86.868 90) (layer F.SilkS) (tstamp 5FE72D99)
+  (gr_text "Myrra 44452 Transformer 117V " (at 54.864 86.868 90) (layer F.SilkS) (tstamp 5FE72D99)
     (effects (font (size 3 2) (thickness 0.15)))
   )
   (gr_text "DANGER LIVE MAINS" (at 46.99 88.64 90) (layer F.SilkS)
