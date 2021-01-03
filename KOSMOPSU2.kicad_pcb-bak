@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.7)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -4730,7 +4730,7 @@
     (fp_text reference C6 (at 5.562 0.014 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "1uf 50V" (at -2.878 0.454 180) (layer F.SilkS)
+    (fp_text value ".1uf 50V" (at -2.878 0.454 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 1.25 0) (end 4.4 0) (layer F.SilkS) (width 0.1))
@@ -5263,7 +5263,7 @@
     (fp_text reference C4 (at 1.26 -4.29) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "2uf 50V" (at 1.55 4.33) (layer F.SilkS)
+    (fp_text value ".2uf 50V" (at 1.55 4.33) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 1.25 0) (end 4.4 0) (layer F.SilkS) (width 0.1))
@@ -5429,7 +5429,7 @@
     (fp_text reference C3 (at 1.38 -4.25) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ".33uf 50V" (at 1.23 4.3) (layer F.SilkS)
+    (fp_text value ".1uf 50V" (at 1.23 4.3) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 1.25 0) (end 4.4 0) (layer F.SilkS) (width 0.1))
