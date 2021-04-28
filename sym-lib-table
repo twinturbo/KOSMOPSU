@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name KOSMOPSU2-rescue)(type Legacy)(uri ${KIPRJMOD}/KOSMOPSU2-rescue.lib)(options "")(descr ""))
+)
